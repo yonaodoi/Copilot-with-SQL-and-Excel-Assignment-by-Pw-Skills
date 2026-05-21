@@ -1,8 +1,8 @@
 -- ============================================
--- Sales Analysis Queries
+-- Question 2: Sales Analysis Queries
 -- ============================================
 
--- Query 1: Find total sales per city
+-- Question 2.1: Find total sales per city
 -- This query calculates the total purchase amount for each city
 SELECT 
     City,
@@ -17,7 +17,7 @@ ORDER BY TotalSales DESC;
 
 -- ============================================
 
--- Query 2: Top 5 cities by revenue
+-- Question 2.2: Top 5 cities by revenue
 -- This query identifies the 5 cities with the highest total revenue
 SELECT 
     City,
